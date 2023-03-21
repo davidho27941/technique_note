@@ -36,10 +36,9 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.USER_NAME }}
           git config --local user.email ${{ secrets.USER_MAIL }}
-          git remote add origin git@github.com:davidho27941/technique_note.git
           git add ${{ github.workspace }}/technique_note/_build/
           git commit -m "chore: build & update html content."
-          git push origin gh-pages -f
+          git push -f origin gh-pages
 
       # Runs a set of commands using the runners shell
       #- name: Deploy document via ghp-import
