@@ -30,7 +30,7 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Build document via jupyter-book
-        run: ${{ github.workspace }}/technique_note/ && jupyter-book build ${{ github.workspace }}/technique_note/
+        run:  jupyter-book build ${{ github.workspace }}/technique_note/
       
       - name: Commit changes and push to `gh-pages` branch.
         run: |
