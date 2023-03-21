@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Install dependencies.
-        run: pip install jupyter-book==0.14.0 nbclient==0.5.13 technique_note/
+        run: pip install jupyter-book==0.14.0 nbclient==0.5.13 ghp-import
       
       # Runs a single command using the runners shell
       - name: Build document via jupyter-book
