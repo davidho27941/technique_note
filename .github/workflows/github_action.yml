@@ -30,7 +30,7 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Build document via jupyter-book
-        run: ls -al && jupyter-book build technique_note/
+        run: ls -al ${{ github.workspace }} && jupyter-book build ${{ github.workspace }}/
 
       # Runs a set of commands using the runners shell
       - name: Deploy document via ghp-import
