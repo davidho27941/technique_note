@@ -3,7 +3,7 @@
 
 title: David's Technique Notebook
 author: Ta-Wei (David) Ho
-logo: logo.png
+logo: icon.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
