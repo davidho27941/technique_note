@@ -1,13 +1,9 @@
-# Welcome to your Jupyter Book
+# 歡迎來到David的技術隨筆（Jupyter Book版）
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
 
-Check out the content pages bundled with this sample book to see more.
+想學的東西太多，能用的時間太少。
+僅以此份筆記來紀錄學習到的知識以及經驗。
 
-test
-
-```{tableofcontents}
-```
+:::{Note}
+歡迎舊雨新知來閱覽這份筆記。這是一個基於Jupyter Book並託管於Github Pages的版本。這裡的所有內容將會與原來在[HackMD上的版本](https://hackmd.io/@davidho9713/technique_note)同步更新。
+:::
